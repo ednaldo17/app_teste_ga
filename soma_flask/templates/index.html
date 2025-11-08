@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Vetores</title>
+</head>
+<body>
+    <h1>Operações com Vetores</h1>
+
+    <form action="/calcular" method="post">
+        <label>Vetores:</label>
+        <input type="text" name="vetor" required><br><br>
+
+        <label>Escolha a operação:</label>
+        <select name="operacao">
+            <option value="somar">Somar</option>
+            <option value="subtrair">Subtrair</option>
+            <option value="produto_escalar">Produto Escalar</option>
+            <option value="norma">Norma</option>
+            <option value="vetor_unitario">Vetor Unitário</option>
+            <option value="produto_vetorial">Produto Vetorial</option>
+            <option value="projecao_vetorial">Projeção Vetorial</option>
+            <option value="ortogonalizacao">Ortogonalização de Gram-Schmidt</option>
+        </select><br><br>
+
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>
